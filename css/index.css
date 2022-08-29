@@ -320,7 +320,10 @@ img {
 
 .in4festival {
     height: 415px !important;
+    /* border-radius: 10% !important;
+     overflow: hidden; */
 }
+   
 
 .mainfestival {
     margin-top: 30px !important;

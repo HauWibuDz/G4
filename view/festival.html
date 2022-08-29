@@ -28,7 +28,7 @@
                 <div class="col-md-4"
                     ng-repeat="pro in product | filter:relisfilter | filter:monthfilter | filter:nationfilter | orderBy:propertyName:reverse">
                     <div class="card mt-3 in4festival" style="width: 17rem;">
-                        <img src="{{pro.image}}" class="card-img" alt="...">
+                        <img src="{{pro.image}}" class="card-img hid" alt="...">
                         <div class="card-body ">
                             <h5 class="card-title text-truncate">{{pro.name}}</h5>                            
                             <p class="card-text prtime">Time takes place : {{pro.time}}</p>
