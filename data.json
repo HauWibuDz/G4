@@ -1,0 +1,386 @@
+{
+   "religion": [
+    {
+        "id":1,
+        "name": "Buddhism phật giáo"
+    },
+    {
+        "id":2,
+        "name": "Hinduism đạo hindu "
+    },
+    {
+        "id":3,
+        "name":"Islamic hồi giáo"
+    },
+    {
+        "id":4,
+        "name":"Christianity thiên chúa giáo"
+    },
+    {
+        "id":5,
+        "name":"Catholic công giáo"
+    }
+   ], 
+   "time":[
+    {
+        "id":1,
+        "name":"January"
+    },
+    {
+        "id":2,
+        "name":"February"
+    },
+    {
+        "id":3,
+        "name":"March"
+    },
+    {
+        "id":4,
+        "name":"April"
+    },
+    {
+        "id":5,
+        "name":"May"
+    },
+    {
+        "id":6,
+        "name":"June"
+    },
+    {
+        "id":7,
+        "name":"July"
+    },
+    {
+        "id":8,
+        "name":"August"
+    },
+    {
+        "id":9,
+        "name":"September"
+    },
+    {
+        "id":10,
+        "name":"October"
+    },
+    {
+        "id":11,
+        "name":"November"
+    },
+    {
+        "id":12,
+        "name":"December"
+    }
+   ],
+   "nation":[
+    {
+        "id":1,
+        "name": "Viet Nam"
+    },
+    {
+        "id":2,
+        "name": "Brasil"
+    },
+    {
+        "id":3,
+        "name": "Chinese"
+    },
+    {
+        "id":4,
+        "name": "India"
+    },
+    {
+        "id":5,
+        "name": "Hong Kong"
+    },
+    {
+        "id":6,
+        "name": "Japan"
+    },
+    {
+        "id":7,
+        "name": "Ireland"
+    },
+    {
+        "id":8,
+        "name": "Hawaii"
+    },
+    {
+        "id":9,
+        "name": "Saudi Arabic"
+    },
+    {
+        "id":10,
+        "name": "Russia"
+    },
+    {
+        "id":11,
+        "name": "Turkey"
+    },
+    {
+        "id":12,
+        "name": "UK"
+    },
+    {
+        "id":13,
+        "name": "Europe"
+    }
+
+   ],
+   "festival": [
+    {
+        "id":1,
+        "name": "Rio Carnival Festival",
+        "image":"img/Rio.jpg",
+        "religion": "Catholic",
+        "rel_id": "5",
+        "time": "March",
+        "time_id": 3,
+        "nation_id": 2,
+        "description": "Rio Carnival is a street festival filled with music and captivating samba dances in Brazil. Held in the city of Rio de Janeiro, the Rio Carnival is known as the most spectacular and captivating show on earth. This year's festival starts on February 28 and ends on March 4"
+    },
+    {
+        "id":2,
+        "name": "Festival of Colors",
+        "image":"img/nembotmau.jpg",
+        "religion": "Hinduism" ,
+        "rel_id": "2",
+        "time": "March",
+         "time_id": 3,
+         "nation_id": 4,
+        "description": "Holi marks the end of winter and the beginning of spring with the hope of a bountiful harvest. This festival also celebrates the victory of good over evil."
+    },
+    {
+        "id":3,
+        "name": "Taiwan Lantern Festival",
+        "image":"img/dentroi.jpg",
+        "religion": "Buddhism",
+        "rel_id": "1",
+        "time": "February",
+        "time_id": 2,
+        "nation_id": 5,
+        "description": "The festival takes place most prominently in February of the solar calendar every year, usually on the occasion of January 15 of the lunar calendar. Legend has it that these ceremonies date back to the time of the Han king - a very devout king who ordered the people to light lamps to pay respects to the Buddha; as well as thanks to the shining lights that the gods can bless all the people."
+    },
+    {
+        "id":4,
+        "name": "Cherry Blossom Festival",
+        "image":"img/hoaanhdao.jpg",
+        "religion": "Buddhism",
+        "rel_id": "1",
+        "time": "March",
+         "time_id": 3,
+         "nation_id": 6,
+        "description": "nana"
+    },
+    {
+        "id":5,
+        "name": "Chinese Dragon Boat Festival",
+        "image":"img/duathuyen.jpg",
+        "religion": "Buddhism",
+        "rel_id": "1",
+        "time": "June",
+        "time_id": 6,
+        "nation_id": 3,
+        "description": "bbb"
+    },
+    {
+        "id":6,
+        "name": "Buddha's Birthday Celebration",
+        "image":"img/lephatdan.jpg",
+        "religion": "Buddhism",
+        "rel_id": "1",
+        "time": "May",
+        "time_id": 5,
+        "nation_id": 1,
+        "description": "Buddha's Birthday, also known as Vesak Day, is one of the great cultural and spiritual festivals of Buddhists. This is the anniversary of the birth of Shakyamuni Buddha in the 7th century BC. Buddha's Birthday is defaulted by many countries to April 15 of the lunar calendar (May of the solar calendar), however, some countries choose April 8 of the lunar calendar (May of the solar calendar) to hold the ceremony."
+    },
+    {
+        "id":7,
+        "name": "Feast of Saint Patrick",
+        "image":"img/thanhpatric.jpg",
+        "religion": "Catholic",
+        "rel_id": "5",
+        "time": "June",
+        "time_id": 7,
+        "nation_id": 7,
+        "description": "Day of Remembrance of the Irish Patron Saint Patrick [circa 389 -461]. March 17. Celebrate Ireland's coat of arms with a Shamrock (similar clover) three-leaf decoration or wearing green clothing. On New York's Fifth Avenue stands St. Patrick, a grand parade is held every year. The customs of Irish immigrants who immigrated to Boston spread throughout the United States."
+    },
+    {
+        "id":8,
+        "name": "Japan Festival of Lights",
+        "image":"img/lehoianhsangnhatban.jpg",
+        "religion": "Buddhism",
+        "rel_id": "1",
+        "time": "December",
+        "time_id": 12,
+        "nation_id": 6,
+        "description": ""
+    },
+    {
+        "id":9,
+        "name": "Special Hawaiian Lantern Festival",
+        "image":"img/denlonghawaii.jpg",
+        "religion": "Buddhism",
+        "rel_id": "1",
+        "time": "May",
+        "time_id": 5,
+        "nation_id": 8,
+        "description": ""
+    },
+    {
+        "id":10,
+        "name": "Diwali Festival of Lights",
+        "image":"img/lehoianhsangdiwali.jpg",
+        "religion": "Hinduism",
+        "rel_id": "2",
+        "time": "October",
+        "time_id": 10,
+        "nation_id": 4,
+        "description": "Diwali is known as the biggest traditional festival in India. Also known by many as The Festival of Lanterns because of the bright light it brings to the festival. Diwali is like the Vietnamese Lunar New Year. It is a festival to celebrate the new year of the Hindus. It is an opportunity for people to pray for peace, and wish that the power of justice will repel darkness and poverty, bringing a prosperous life. Diwali festival will last for a period of 5 days. From the 28th night of the month Ashwin-October, until the 2nd day of the month Kartika-November in the Indian calendar. Each day of the festival has a different meaning and name. The first day is dedicated to celebrating wealth and prosperity, called Dhanteras. The second day is called Choti Diwali. And the main Diwali holiday takes place on Tuesday. The fourth day is the day to celebrate and appreciate the value of the relationship between husband and wife, called Padwa or otherwise known as Govardhan Puja - the feast of the Lord Krishna. The last day is Bhai Duj, a day dedicated to brotherly love in the family. One of the most impressive points in the Diwali festival is the house of firecrackers, people who set off firecrackers. Combined with the Diyas clay lanterns are lit, forming a festival of lights that is extremely glorious and brilliant. Thereby people aspire to the victorious meaning of justice."
+    },
+    {
+        "id":14,
+        "name": "Diwali Festival of Lights",
+        "image":"img/lehoianhsangdiwali.jpg",
+        "religion": "Hinduism",
+        "rel_id": "2",
+        "time": "October",
+        "time_id": 10,
+        "nation_id": 4,
+        "description": "Diwali is known as the biggest traditional festival in India. Also known by many as The Festival of Lanterns because of the bright light it brings to the festival. Diwali is like the Vietnamese Lunar New Year. It is a festival to celebrate the new year of the Hindus. It is an opportunity for people to pray for peace, and wish that the power of justice will repel darkness and poverty, bringing a prosperous life. Diwali festival will last for a period of 5 days. From the 28th night of the month Ashwin-October, until the 2nd day of the month Kartika-November in the Indian calendar. Each day of the festival has a different meaning and name. The first day is dedicated to celebrating wealth and prosperity, called Dhanteras. The second day is called Choti Diwali. And the main Diwali holiday takes place on Tuesday. The fourth day is the day to celebrate and appreciate the value of the relationship between husband and wife, called Padwa or otherwise known as Govardhan Puja - the feast of the Lord Krishna. The last day is Bhai Duj, a day dedicated to brotherly love in the family. One of the most impressive points in the Diwali festival is the house of firecrackers, people who set off firecrackers. Combined with the Diyas clay lanterns are lit, forming a festival of lights that is extremely glorious and brilliant. Thereby people aspire to the victorious meaning of justice."
+    },
+    {
+        "id":11,
+        "name": "Ganesha Festival",
+        "image":"img/ganesha.jpg",
+        "religion": "Hinduism",
+        "rel_id": "2",
+        "time": "August",
+        "time_id": 8,
+        "nation_id": 4,
+        "description": "Ganesh Chaturthi festival lasts about 10 days, starting from mid-August to mid-September every year. It is one of the most important festivals of the year for Hindus in India. This is the celebration of the birth of the elephant-headed god Ganesha. As a wise god, bringing happiness and luck to people, he is worshiped and respected by the people. During the festival period, there are many interesting and attractive programs that any visitor wants to participate in once. It is a special and vibrant program of music performances, poetry recitation and traditional dances. In addition, an important event indispensable in the festival is that religious followers will make clay or metal figurines of various shapes and sizes, to worship in homes or shops for 10 days. The 10th day is also the day of the procession of the image of Ganesha on the streets, from the countryside to the city."
+    },
+    {
+        "id":15,
+        "name": "Ganesha Festival",
+        "image":"img/ganesha.jpg",
+        "religion": "Hinduism",
+        "rel_id": "2",
+        "time": "August",
+        "time_id": 8,
+        "nation_id": 4,
+        "description": "Ganesh Chaturthi festival lasts about 10 days, starting from mid-August to mid-September every year. It is one of the most important festivals of the year for Hindus in India. This is the celebration of the birth of the elephant-headed god Ganesha. As a wise god, bringing happiness and luck to people, he is worshiped and respected by the people. During the festival period, there are many interesting and attractive programs that any visitor wants to participate in once. It is a special and vibrant program of music performances, poetry recitation and traditional dances. In addition, an important event indispensable in the festival is that religious followers will make clay or metal figurines of various shapes and sizes, to worship in homes or shops for 10 days. The 10th day is also the day of the procession of the image of Ganesha on the streets, from the countryside to the city."
+    },
+    {
+        "id":12,
+        "name": "St.petersburg White Nights Festival in Russia",
+        "image":"img/lehoidemtrangonga.jpg",
+        "religion": "Catholic",
+        "rel_id": "5",
+        "time": "June",
+        "time_id": 6,
+        "nation_id": 10,
+        "description": ""
+    },
+    {
+        "id":13,
+        "name": "Festival to end the fasting season of Ramadan",
+        "image":"img/ramada.jpg",
+        "religion": "Islamic",
+        "rel_id": "3",
+        "time": "September",
+        "time_id": 9,
+        "nation_id": 9,
+        "description": "9"
+    },
+    {
+        "id":21,
+        "name": "Festival to end the fasting season of Ramadan",
+        "image":"img/ramada.jpg",
+        "religion": "Islamic",
+        "rel_id": "3",
+        "time": "January",
+        "time_id": 1,
+        "nation_id": 9,
+        "description": "9"
+    },
+    {
+        "id":16,
+        "name": "Hajj",
+        "image":"img/hajj.jpg",
+        "religion": "Islamic",
+        "rel_id": "3",
+        "time": "December",
+        "time_id": 12,
+        "nation_id": 9,
+        "description": ""
+    },
+    {
+        "id":17,
+        "name": "Olive Oil Wrestling Festival in Turkey",
+        "image":"img/dauvat.jpg",
+        "religion": "Islamic",
+        "rel_id": "5",
+        "time": "July",
+        "time_id": 7,
+        "nation_id": 11,
+        "description": ""
+    },
+    {
+        "id":18,
+        "name": "Notting Hill Carnival",
+        "image":"img/nottonghill.jpg",
+        "religion": "Christianity",
+        "rel_id": "4",
+        "time": "August",
+        "time_id": 8,
+        "nation_id": 12,
+        "description": ""
+    },
+    {
+        "id":18,
+        "name": "Notting Hill Carnival",
+        "image":"img/nottonghill.jpg",
+        "religion": "Christianity",
+        "rel_id": "4",
+        "time": "November",
+        "time_id": 11,
+        "nation_id": 12,
+        "description": ""
+    },
+    {
+        "id":19,
+        "name": "Easter",
+        "image":"img/lephucsinh.jpg",
+        "religion": "Christianity",
+        "rel_id": "4",
+        "time": "April",
+        "time_id": 4,
+        "nation_id": 13,
+        "description": ""
+    },
+    {
+        "id":20,
+        "name": "Christmas",
+        "image":"img/giangsinh.jpg",
+        "religion": "Christianity",
+        "rel_id": "4",
+        "time": "December",
+        "time_id": 12,
+        "nation_id": 13,
+        "description": ""
+    },
+    {
+        "id":22,
+        "name": "Halloween ",
+        "image":"img/haloween.jpg",
+        "religion": "Christianity",
+        "rel_id": "4",
+        "time": "October",
+        "time_id": 10,
+        "nation_id": 13,
+        "description": ""
+    }
+    
+
+   ]
+}

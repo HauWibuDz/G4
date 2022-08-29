@@ -1,0 +1,396 @@
+@font-face {
+    font-family: 'poppin';
+    src: url('../font/Poppins-Bold.ttf');
+}
+
+* {
+    padding: 0;
+    margin: 0 ;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+::selection {
+    background-color: #E3B04B !important;
+    color: white;
+}
+
+/* Header */
+.header-menu {
+    width: 100%;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+.menu {
+    width: 95%;
+    margin: 0 auto;
+
+}
+
+.logo {
+    width: 190px;
+    height: 100px;
+}
+
+.header-menu {
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    background: #fff;
+}
+
+.logo img {
+    width: 190px;
+    height: 100px;
+}
+
+.text-menu {
+    padding-top: 35px;
+
+}
+
+.text-menu :hover.text {
+    color: rgb(11, 36, 111);
+    text-decoration: rgb(11, 36, 111) underline;
+    cursor: pointer;
+}
+
+
+.baner {
+    margin-top: 100px;
+}
+
+.text-icon a {
+    font-size: 30px;
+    margin-top: 4px;
+}
+
+.text-icon:hover .icon {
+    color: rgb(11, 36, 111);
+}
+
+
+/* footer */
+.footer {
+    width: 90%;
+    margin: 0 auto;
+    color: aqua;
+    height: 250px;
+    padding-top: 35px;
+}
+
+.footer h2,
+h4 {
+    color: #fff !important;
+    font-size: 25px !important;
+}
+
+.footer h6 {
+    font-size: 15px !important;
+}
+
+.footer :hover.text-footer {
+    text-decoration: underline;
+    color: burlywood !important;
+    cursor: pointer;
+}
+
+footer {
+    background: black;
+    border-top: 2px solid gray;
+
+}
+
+/* login */
+.ftco-section {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.logoimg img {
+    /* margin-top: 50px; */
+    height: 710px;
+    width: 460px;
+}
+
+
+/* contact */
+
+.leave-comment {
+    display: block;
+    font-weight: bold;
+    font-family: Montserrat-Regular;
+    line-height: 1.7;
+    color: #888;
+    font-size: 16.5px;
+    margin-left: 40px;
+}
+
+.box-i {
+    border: 1px solid #e6e6e6;
+    border-radius: 2px;
+    width: 90%;
+    height: 50px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-sizing: inherit;
+}
+
+.input {
+    color: #555;
+    width: 100%;
+    height: 100%;
+    padding-right: 22px;
+    padding-left: 22px;
+}
+
+.mess-box {
+    border: 1px solid #e6e6e6;
+    border-radius: 2px;
+    width: 90%;
+    min-height: 120px;
+    display: block;
+    margin-bottom: 20px;
+    padding-right: 22px;
+    padding-left: 22px;
+    padding-top: 13px;
+    outline: none;
+    overflow: auto;
+    resize: vertical;
+    touch-action: manipulation;
+}
+
+.btn-size {
+    width: 160px;
+    display: block;
+    margin-left: 150px;
+}
+
+.send-btn {
+    border-radius: 23px;
+    background-color: #222;
+    width: 100%;
+    height: 46px;
+    font-family: Montserrat-Regular;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tittle-contact {
+    color: gray;
+    padding-bottom: 20px;
+    margin-left: 30px;
+}
+
+.contact {
+    margin-bottom: 50px;
+}
+
+.img-banner-contact {
+    height: 150px;
+}
+
+.img-banner-contact h1 {
+    padding-top: 50px;
+}
+
+.contact-bt {
+    margin-top: 50px;
+}
+
+.tittle-contact {
+    color: brown !important;
+}
+
+/* notification */
+
+.sidenav {
+    height: 500px;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 100px;
+    right: 0px;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 20px;
+    color: #fff;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.img-cart img {
+    border-radius: 1000px;
+    margin: 10px;
+}
+
+.textnav {
+    height: 90px;
+}
+
+.textnav p {
+    margin-top: 10px;
+}
+
+.sidenav :hover.textnav {
+    background: #818181;
+    cursor: pointer;
+}
+
+.notifi span {
+    margin-bottom: 50px !important;
+}
+
+/* News */
+.news {
+    width: 92%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.baner-qc {
+    width: 100%;
+}
+
+.baner-qc img {
+    width: 100%;
+}
+
+.text-item {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+.news p {
+    font-size: 18px;
+}
+
+/* fetival */
+
+.prName {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-top: 15px;
+    font-size: 24px;
+    margin-bottom: 5px;
+    color: #111;
+}
+
+.prtime {
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.prreligion {
+    font-size: 16px;
+}
+
+.in4festival img {
+    height: 200px !important;
+}
+
+.in4festival {
+    height: 415px !important;
+}
+
+.mainfestival {
+    margin-top: 30px !important;
+}
+
+.bt-view {
+    text-align: center;
+}
+
+.filtermonth {
+    margin-bottom: 10px;
+}
+
+.bg-time {
+    background-color: #888 !important;
+    color: #f1f1f1 !important;
+    border-radius: 4px !important;
+}
+
+/* Tour */
+article h3 {
+    text-align: center;
+    padding: 15px;
+    color: #272f54 !important;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+article .new_item {
+    border: 1px solid #ccc;
+    width: 80% !important;
+    text-align: center;
+    padding: 10px !important;
+}
+
+article .new_tour .new_item h4 {
+    font-size: 16px;
+    color: #ad3f00 !important;
+}
+
+.new_tour {
+    width: 90%;
+    text-align: center !important;
+    margin: 0 auto !important;
+    margin-bottom: 20px !important;
+}
+/* 
+details */
+.detail-main {
+    margin-top: 20px !important;
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+}
+
+.img-detail {
+    height: 300px !important;
+}
+
+.detail-name {
+    padding-bottom: 15px;
+}
+
+.detail-text {
+    color: olivedrab;
+    font-size: 20px !important;
+}
+
+.detail-text a {
+    text-transform: uppercase;
+    color: darkred !important;
+    font-size: 22px !important;
+}
