@@ -1,24 +1,44 @@
 <div class="container" ng-controller="detailCtrl">
-    <div ng-repeat="item in product ">
+    <div ng-repeat="item in festivals">
         <div ng-if="item.id == uid">
             <div class="row detail-main">
                 <div class="col-md-5 img-detail">
                     <img src="{{item.image}}" class="" alt="...">
                 </div>
                 <div class="col-md-7">
-                    <h1 class="card-title detail-name text-truncate">{{item.name}}</h1>                            
-                    <p class="card-text detail-text"> 
+                    <h1 class="card-title detail-name text-truncate">{{item.name}}</h1>
+                    <p class="card-text detail-text">
                         <a>Time takes place :</a>
                         {{item.time}}
                     </p>
                     <p class="card-text detail-text">
                         <a>Religion :</a>
                         {{item.religion}}
-                        </p>
+                    </p>
                     <p class="card-text detail-text">
-                        <a>Description :</a>  
+                        <a>Description :</a>
                         {{item.description}}
                     </p>
+                </div>
+            </div>
+
+            <div class="text-center">
+                <h1>Featured</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-3"
+                    ng-repeat="pro in product" ng-if="pro.rel_id == item.rel_id">
+                    <div class="card mt-3 in4festival" style="width: 17rem;">
+                        <img src="{{pro.image}}" class="card-img hid" alt="...">
+                        <div class="card-body ">
+                            <h5 class="card-title text-truncate">{{pro.name}}</h5>                            
+                            <p class="card-text prtime">Time takes place : {{pro.time}}</p>
+                            <p class="card-text prreligion">Religion : {{pro.religion}}</p>
+                            <p class="bt-view">
+                                <a href="#!detail/{{pro.id}}" class="btn btn-primary">View More</a>
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

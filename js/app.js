@@ -43,6 +43,10 @@ app.controller('appCtrl', function ($scope, $http, $interval) {
     }
   }
 
+  $scope.reload = () => {
+    window.location.reload();
+  }
+
   var controller = this;
   controller.date = new Date();
   $interval(function(){
@@ -59,6 +63,7 @@ app.controller("detailCtrl", function($scope, $routeParams, $location, $http){
   $scope.uid = $routeParams.id;
   $http.get("data.json")
   .then((response) => {
+    $scope.religions = response.data.religion;
     $scope.festivals = response.data.festival;
   })
 })

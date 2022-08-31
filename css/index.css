@@ -397,3 +397,83 @@ details */
     color: darkred !important;
     font-size: 22px !important;
 }
+
+.banner-header {
+    width: 100%;
+    height: 550px;
+}
+
+.banner-header img {
+    width: 100%;
+    height: 550px;
+}
+
+.text-header {
+    color: #fff;
+    background: rgba(0, 0,0, 0.6);
+    position: absolute;
+    top: 400px;
+    left: 650px;
+    border-radius: 40px;
+    padding: 10px;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+:hover.text-header{
+    color: red;
+}
+.text-home{
+    color: #fff;
+    background: rgba(0, 0,0, 0.6);
+    position: absolute;
+    border-radius: 40px;
+    padding: 5px;
+    left: 55px;
+    top: 100px;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.home-img img {
+    height: 200px !important ;
+}
+.day{
+    margin-top: 50px;
+    padding-top: 10px;
+    background-image: url(../img/Gray\ Minimalist\ Motivational\ Phone\ Wallpaper.png);
+    background-size: 100%;
+}
+.item-text{
+    color: rgb(10, 8, 8);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    padding-top: 10px;
+}
+.item-day{
+    background: #fff;
+    box-shadow: 4px 6px #99999e;
+    margin: 47px;
+    
+}
+.item-day h4{
+    color: #272f54 !important;
+}
+.text-item{
+    padding-bottom: 10px;
+    border-bottom: 2px solid royalblue;
+    color: darkgray;
+}
+.text-item2{
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(215, 113, 113);
+    color: darkgray;
+}
+.text-item3{
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(186, 111, 186);
+    color: darkgray;
+}
+.header-item{
+    padding-top: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
