@@ -3,7 +3,7 @@
         <div ng-if="item.id == uid">
             <div class="row detail-main">
                 <div class="col-md-5 img-detail">
-                    <img src="{{item.image}}" class="" alt="...">
+                    <img src="{{item.image}}" class="card-img" alt="...">
                 </div>
                 <div class="col-md-7">
                     <h1 class="card-title detail-name text-truncate">{{item.name}}</h1>
@@ -15,10 +15,10 @@
                         <a>Religion :</a>
                         {{item.religion}}
                     </p>
-                    <p class="card-text detail-text">
-                        <a>Description :</a>
-                        {{item.description}}
-                    </p>
+                </div>
+                <div class="card-text detail-text text-center">
+                    <a class="text-center">Description :</a>
+                    <p>{{item.description}}</p>
                 </div>
             </div>
 
