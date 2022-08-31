@@ -7,6 +7,7 @@ app.controller('appCtrl', function ($scope, $http, $interval) {
     $scope.account = response.data.account
     $scope.religions = response.data.religion
     $scope.nations = response.data.nation
+    console.log($scope.product);
   })
 
   $scope.reliFilter = function (id){

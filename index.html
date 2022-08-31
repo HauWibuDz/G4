@@ -46,35 +46,14 @@
   <script src="js/popper.min.js"></script>
   <script src="bootstrap-4.6.2-dist/js/bootstrap.min.js"></script>
   <script src="OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
-  <script>eval(mod_pagespeed_YYCwSj$83H);</script>
+  <!-- <script>eval(mod_pagespeed_YYCwSj$83H);</script>
   <script>eval(mod_pagespeed_fUKQzxht9j);</script>
-  <script>eval(mod_pagespeed_lpntivnFUb);</script>
+  <script>eval(mod_pagespeed_lpntivnFUb);</script> -->
   <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194"
     integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw=="
     data-cf-beacon='{"rayId":"73928b038ffec969","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2022.6.0","si":100}'
     crossorigin="anonymous"></script>
   <script>
-
-    // alert(localStorage.getItem("login"));
-    function register() {
-      var name = document.getElementById("name").value;
-      var username = document.getElementById("username").value;
-      var password = document.getElementById("password").value;
-      var cfpassword = document.getElementById("cfpassword").value;
-      var account = {
-        "name": name,
-        "username": username,
-        "password": password
-      }
-      if (password == cfpassword) {
-        localStorage.setItem("use", JSON.stringify(account));
-        alert("Register Success")
-      } else {
-        alert("cf password is incorrect")
-      }
-
-    }
-
     function openNav() {
       document.getElementById("mySidenav").style.width = "250px";
     }
